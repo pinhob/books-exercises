@@ -1,0 +1,1 @@
+Aqui estão os exercícios do livro **Lógica de Programação e Algoritmos com Javascript**, de _Édecio Fernando Iepsen_. 
