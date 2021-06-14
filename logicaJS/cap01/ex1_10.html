@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Duração da viagem em horas</title>
+</head>
+<body>
+  <h1>Duração da viagem em horas</h1>
+  <p>Elaborar um programa que leia a duração de uma viagem em dias e horas. Calcule e informe a duração total da viagem em número de horas.</p>
+  <script>
+    let tripDays = Number(prompt('Foram quantos dias de viagem?'));
+    let tripHours = Number(prompt('E quantas horas?'));
+    let daysToHours = tripDays * 24;
+
+    let sumHours = tripHours + daysToHours;
+
+    alert(sumHours);
+  </script>
+</body>
+</html>

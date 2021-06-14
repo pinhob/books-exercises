@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Conta da pizzaria</title>
+</head>
+<body>
+  <h1>Conta da pizzaria</h1>
+  <p>Elaborar um programa para uma pizzaria, o qual leia o valor total de uma conta e quantos clientes vão pagá-la. Calcule e informe o valor a ser pago por cliente.</p>
+  <script>
+    let contaPizzaria = Number(prompt('Quanto foi a conta da pizzaria?'));
+    let numPessoas = Number(prompt('E vocês estavam em quantas pessoas?'));
+
+    let contaDividida = contaPizzaria / numPessoas;
+
+    prompt(`O valor que deve ser pago por pessoa é de R$${contaDividida}`);
+  </script>
+</body>
+</html>
