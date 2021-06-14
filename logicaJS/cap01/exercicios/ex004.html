@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Média das notas</title>
+</head>
+<body>
+  <h1>Média das notas</h1>
+  <p>Elaborar um programa que leia 2 notas de um aluno em uma disciplina. Calcule e ifnrome a média das notas:</p>
+  <script>
+    let nota1 = Number(prompt('Qual foi sua primeira nota?'));
+    let nota2 = Number(prompt('Qual foi sua segunda nota?'));
+    let media = (nota1 + nota2) / 2;
+    
+    if (media < 5) {
+      alert(`Cuidado! Sua média é de ${media}! Você precisa melhora-lá para não ficar de recuperação`)
+    } else if (media < 8) {
+      alert(`Sua média é de ${media}, o que é o suficiente para passar, mas eu sei que vocẽ pode mais!`)
+    } else {
+      alert(`Parabéns! Sua média é de ${media}!`)
+    }
+  </script>
+</body>
+</html>

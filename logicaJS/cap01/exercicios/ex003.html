@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Opções de pagamento</title>
+</head>
+<body>
+  <h1>Opções de pagamento</h1>
+  <p>Elaborar um programa para uma loja, o qual leia o preço de um produto e informe as opções de pagamento da loja. Calcule e informe o valor para pagamento à vista com 10% de desconto e o valor em 3x.</p>
+  <script>
+    let precoProduto = Number(prompt('Qual é o valor do produto?'));
+    let dezPorCento = precoProduto * 0.10;
+    let pgtoVista = precoProduto - dezPorCento;
+    let pgtoParcelado = precoProduto / 3;
+
+    prompt(`O produto à vista, com 10% de desconto, sai por R$${pgtoVista}. Já parcelado em 3x, o valor por parcela é de R$${pgtoParcelado}`);
+  </script>
+</body>
+</html>
