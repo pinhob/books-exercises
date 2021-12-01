@@ -61,9 +61,11 @@
     
     <script src="domain/negociacao/Negociacao.js"></script>
     <script>
-        const n1 = new Negociacao(new Date(), 5, 200);
-        const volume = n1.obtemVolume();
-        console.log(volume);
+        const n1 = new Negociacao(new Date(), 10, 200);
+        console.log("Data: ", n1.data);
+        console.log("Quantidade: ", n1.quantidade);
+        console.log("Valor: ", n1.valor);
+        console.log("Volume: ", n1.volume);
     </script>
 </body>
 </html>
