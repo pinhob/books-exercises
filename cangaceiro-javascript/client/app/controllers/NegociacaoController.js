@@ -1,7 +1,7 @@
 class NegociacaoController {
   constructor() {
     // Para conseguir usar a variável $ como querySelector, precisamos fazer o bind dela para document, para mudar o contexto do this.
-    let $ = document.querySelector.bind(document);
+    const $ = document.querySelector.bind(document);
   
     this._inputData = $('#data');
     this._inputValor = $('#valor');
